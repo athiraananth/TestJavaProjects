@@ -5,13 +5,8 @@
 	<test name="mergeSortTest">
 		<classes>
 			<class name="sortTests.SortTester"/>
-		</classes>
-	</test> <!-- Test -->
-	
-	<!-- <test name="FirefoxTest">
-	<parameter name="browser" value="Firefox" />
-		<classes>	
-			<class name="mergeSortTest.MergeSortTester"/>
+			<class name="sortTests.SearchTester"/>
+			
 		</classes>
 	</test> -->
 </suite> <!-- Suite -->
