@@ -1,7 +1,14 @@
-binarySearch\BinarySearchTreeImplementation.class
 binarySearch\binarySearchImplementation.class
 binarySearch\BinarySearchTreeImplementation$Node.class
 sort\MergeSortImplementation.class
 sort\InsertionSort.class
+practiseProblems\DuplicateInteger.class
 sort\quickSortImplementation.class
 sort\BubbleSort.class
+practiseProblems\WordCloud.class
+binarySearch\BinarySearchTreeImplementation.class
+practiseProblems\ReverseInteger.class
+practiseProblems\NgramCounter.class
+practiseProblems\PrintCreditKarma.class
+practiseProblems\FindRotationPoint.class
+practiseProblems\NgramCounter$1.class
