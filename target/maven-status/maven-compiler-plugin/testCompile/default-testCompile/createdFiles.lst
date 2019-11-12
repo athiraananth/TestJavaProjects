@@ -1,1 +1,5 @@
+practiceTests\TestRunner.class
+practiceTests\TestNGTester.class
 sortTests\SortTester.class
+sortTests\OperaotrTest.class
+sortTests\SearchTester.class

@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="46" started-at="2019-10-01T04:39:54Z" finished-at="2019-10-01T04:39:54Z">
+  <suite name="TestSuite" duration-ms="60" started-at="2019-11-11T23:48:53Z" finished-at="2019-11-11T23:48:53Z">
     <groups>
     </groups>
-    <test name="mergeSortTest" duration-ms="46" started-at="2019-10-01T04:39:54Z" finished-at="2019-10-01T04:39:54Z">
-      <class name="sortTests.SortTester">
-        <test-method status="PASS" signature="testBubbleSort()[pri:0, instance:sortTests.SortTester@edf4efb]" name="testBubbleSort" duration-ms="26" started-at="2019-09-30T21:39:54Z" finished-at="2019-09-30T21:39:54Z">
+    <test name="mergeSortTest" duration-ms="60" started-at="2019-11-11T23:48:53Z" finished-at="2019-11-11T23:48:53Z">
+      <class name="practiceTests.TestRunner">
+        <test-method status="PASS" signature="appleStockPriceTest_1()[pri:0, instance:practiceTests.TestRunner@edf4efb]" name="appleStockPriceTest_1" duration-ms="24" started-at="2019-11-11T15:48:53Z" finished-at="2019-11-11T15:48:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBubbleSort -->
-        <test-method status="PASS" signature="testInsertionSort()[pri:0, instance:sortTests.SortTester@edf4efb]" name="testInsertionSort" duration-ms="1" started-at="2019-09-30T21:39:54Z" finished-at="2019-09-30T21:39:54Z">
+        </test-method> <!-- appleStockPriceTest_1 -->
+        <test-method status="PASS" signature="appleStockPriceTest_2()[pri:0, instance:practiceTests.TestRunner@edf4efb]" name="appleStockPriceTest_2" duration-ms="26" started-at="2019-11-11T15:48:53Z" finished-at="2019-11-11T15:48:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testInsertionSort -->
-        <test-method status="PASS" signature="testMergeSort()[pri:0, instance:sortTests.SortTester@edf4efb]" name="testMergeSort" duration-ms="2" started-at="2019-09-30T21:39:54Z" finished-at="2019-09-30T21:39:54Z">
+        </test-method> <!-- appleStockPriceTest_2 -->
+        <test-method status="PASS" signature="permutationPalindromeNegative_Test1()[pri:0, instance:practiceTests.TestRunner@edf4efb]" name="permutationPalindromeNegative_Test1" duration-ms="5" started-at="2019-11-11T15:48:53Z" finished-at="2019-11-11T15:48:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMergeSort -->
-        <test-method status="PASS" signature="testQuickSort()[pri:0, instance:sortTests.SortTester@edf4efb]" name="testQuickSort" duration-ms="1" started-at="2019-09-30T21:39:54Z" finished-at="2019-09-30T21:39:54Z">
+        </test-method> <!-- permutationPalindromeNegative_Test1 -->
+        <test-method status="PASS" signature="permutationPalindromePositive_Test1()[pri:0, instance:practiceTests.TestRunner@edf4efb]" name="permutationPalindromePositive_Test1" duration-ms="2" started-at="2019-11-11T15:48:53Z" finished-at="2019-11-11T15:48:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testQuickSort -->
-      </class> <!-- sortTests.SortTester -->
+        </test-method> <!-- permutationPalindromePositive_Test1 -->
+        <test-method status="PASS" signature="permutationPalindromePositive_Test2()[pri:0, instance:practiceTests.TestRunner@edf4efb]" name="permutationPalindromePositive_Test2" duration-ms="0" started-at="2019-11-11T15:48:53Z" finished-at="2019-11-11T15:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- permutationPalindromePositive_Test2 -->
+      </class> <!-- practiceTests.TestRunner -->
     </test> <!-- mergeSortTest -->
   </suite> <!-- TestSuite -->
 </testng-results>

@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="TestSuite">
+<suite name="TestSuite" parallel="methods" thread-count="2">
 	<test name="mergeSortTest">
 		<classes>
-			<class name="sortTests.SortTester"/>
-		</classes>
-	</test> <!-- Test -->
-	
-	<!-- <test name="FirefoxTest">
-	<parameter name="browser" value="Firefox" />
-		<classes>	
-			<class name="mergeSortTest.MergeSortTester"/>
+			<!-- <class name="sortTests.SortTester"/>
+			<class name="sortTests.SearchTester"/> -->
+			<class name="practiceTests.TestRunner"/>
 		</classes>
 	</test> -->
 </suite> <!-- Suite -->
