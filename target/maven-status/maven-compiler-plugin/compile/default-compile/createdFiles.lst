@@ -1,9 +1,11 @@
 practiseProblems\InflightEntertainment.class
 practiseProblems\PalindromePermutation.class
+practiseProblems\HighestProduct.class
 binarySearch\binarySearchImplementation.class
 binarySearch\BinarySearchTreeImplementation$Node.class
 sort\MergeSortImplementation.class
 sort\InsertionSort.class
+practiseProblems\ProductOfIntegers.class
 practiseProblems\DuplicateInteger.class
 sort\quickSortImplementation.class
 practiseProblems\AppleStock.class

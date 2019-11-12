@@ -5,8 +5,10 @@
 	<test name="mergeSortTest">
 		<classes>
 			<!-- <class name="sortTests.SortTester"/>
-			<class name="sortTests.SearchTester"/> -->
-			<class name="practiceTests.TestRunner"/>
+			<class name="sortTests.SearchTester"/> 
+			<class name="practiceTests.TestRunner"/> 
+			<class name="practiceTests.HighestProductTest"/> -->
+			<class name="practiceTests.ProductIntTests"/>
 		</classes>
 	</test> -->
 </suite> <!-- Suite -->

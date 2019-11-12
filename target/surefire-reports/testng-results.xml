@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="60" started-at="2019-11-11T23:48:53Z" finished-at="2019-11-11T23:48:53Z">
+  <suite name="TestSuite" duration-ms="47" started-at="2019-11-12T21:54:44Z" finished-at="2019-11-12T21:54:44Z">
     <groups>
     </groups>
-    <test name="mergeSortTest" duration-ms="60" started-at="2019-11-11T23:48:53Z" finished-at="2019-11-11T23:48:53Z">
-      <class name="practiceTests.TestRunner">
-        <test-method status="PASS" signature="appleStockPriceTest_1()[pri:0, instance:practiceTests.TestRunner@edf4efb]" name="appleStockPriceTest_1" duration-ms="24" started-at="2019-11-11T15:48:53Z" finished-at="2019-11-11T15:48:53Z">
+    <test name="mergeSortTest" duration-ms="47" started-at="2019-11-12T21:54:44Z" finished-at="2019-11-12T21:54:44Z">
+      <class name="practiceTests.ProductIntTests">
+        <test-method status="PASS" signature="productIntTest_1()[pri:0, instance:practiceTests.ProductIntTests@edf4efb]" name="productIntTest_1" duration-ms="20" started-at="2019-11-12T13:54:44Z" finished-at="2019-11-12T13:54:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- appleStockPriceTest_1 -->
-        <test-method status="PASS" signature="appleStockPriceTest_2()[pri:0, instance:practiceTests.TestRunner@edf4efb]" name="appleStockPriceTest_2" duration-ms="26" started-at="2019-11-11T15:48:53Z" finished-at="2019-11-11T15:48:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- appleStockPriceTest_2 -->
-        <test-method status="PASS" signature="permutationPalindromeNegative_Test1()[pri:0, instance:practiceTests.TestRunner@edf4efb]" name="permutationPalindromeNegative_Test1" duration-ms="5" started-at="2019-11-11T15:48:53Z" finished-at="2019-11-11T15:48:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- permutationPalindromeNegative_Test1 -->
-        <test-method status="PASS" signature="permutationPalindromePositive_Test1()[pri:0, instance:practiceTests.TestRunner@edf4efb]" name="permutationPalindromePositive_Test1" duration-ms="2" started-at="2019-11-11T15:48:53Z" finished-at="2019-11-11T15:48:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- permutationPalindromePositive_Test1 -->
-        <test-method status="PASS" signature="permutationPalindromePositive_Test2()[pri:0, instance:practiceTests.TestRunner@edf4efb]" name="permutationPalindromePositive_Test2" duration-ms="0" started-at="2019-11-11T15:48:53Z" finished-at="2019-11-11T15:48:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- permutationPalindromePositive_Test2 -->
-      </class> <!-- practiceTests.TestRunner -->
+        </test-method> <!-- productIntTest_1 -->
+      </class> <!-- practiceTests.ProductIntTests -->
     </test> <!-- mergeSortTest -->
   </suite> <!-- TestSuite -->
 </testng-results>
