@@ -16,13 +16,13 @@ public class WordCloud {
 		HashMap<String, Integer> wordMap= new HashMap<String, Integer>();
 		for(int i=0;i<words.length;i++) {
 			
+			words[i]=words[i].toLowerCase();
 			if(wordMap.containsKey(words[i])) {
 				wordMap.put(words[i], wordMap.getOrDefault(words[i], wordCount)+1);
 			}
 			else {
 				 wordCount=1;
-				 wordMap.put(words[i], wordCount);
-				
+				 wordMap.put(words[i], wordCount);	
 			}
 				
 			}

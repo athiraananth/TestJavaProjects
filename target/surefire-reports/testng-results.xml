@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="69" started-at="2019-10-31T21:02:44Z" finished-at="2019-10-31T21:02:44Z">
+  <suite name="TestSuite" duration-ms="60" started-at="2019-11-11T23:48:53Z" finished-at="2019-11-11T23:48:53Z">
     <groups>
     </groups>
-    <test name="mergeSortTest" duration-ms="69" started-at="2019-10-31T21:02:44Z" finished-at="2019-10-31T21:02:44Z">
+    <test name="mergeSortTest" duration-ms="60" started-at="2019-11-11T23:48:53Z" finished-at="2019-11-11T23:48:53Z">
       <class name="practiceTests.TestRunner">
-        <test-method status="PASS" signature="nGramTest()[pri:0, instance:practiceTests.TestRunner@edf4efb]" name="nGramTest" duration-ms="45" started-at="2019-10-31T14:02:44Z" finished-at="2019-10-31T14:02:44Z">
+        <test-method status="PASS" signature="appleStockPriceTest_1()[pri:0, instance:practiceTests.TestRunner@edf4efb]" name="appleStockPriceTest_1" duration-ms="24" started-at="2019-11-11T15:48:53Z" finished-at="2019-11-11T15:48:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- nGramTest -->
-        <test-method status="PASS" signature="wordCloudTest()[pri:0, instance:practiceTests.TestRunner@edf4efb]" name="wordCloudTest" duration-ms="3" started-at="2019-10-31T14:02:44Z" finished-at="2019-10-31T14:02:44Z">
+        </test-method> <!-- appleStockPriceTest_1 -->
+        <test-method status="PASS" signature="appleStockPriceTest_2()[pri:0, instance:practiceTests.TestRunner@edf4efb]" name="appleStockPriceTest_2" duration-ms="26" started-at="2019-11-11T15:48:53Z" finished-at="2019-11-11T15:48:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- wordCloudTest -->
+        </test-method> <!-- appleStockPriceTest_2 -->
+        <test-method status="PASS" signature="permutationPalindromeNegative_Test1()[pri:0, instance:practiceTests.TestRunner@edf4efb]" name="permutationPalindromeNegative_Test1" duration-ms="5" started-at="2019-11-11T15:48:53Z" finished-at="2019-11-11T15:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- permutationPalindromeNegative_Test1 -->
+        <test-method status="PASS" signature="permutationPalindromePositive_Test1()[pri:0, instance:practiceTests.TestRunner@edf4efb]" name="permutationPalindromePositive_Test1" duration-ms="2" started-at="2019-11-11T15:48:53Z" finished-at="2019-11-11T15:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- permutationPalindromePositive_Test1 -->
+        <test-method status="PASS" signature="permutationPalindromePositive_Test2()[pri:0, instance:practiceTests.TestRunner@edf4efb]" name="permutationPalindromePositive_Test2" duration-ms="0" started-at="2019-11-11T15:48:53Z" finished-at="2019-11-11T15:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- permutationPalindromePositive_Test2 -->
       </class> <!-- practiceTests.TestRunner -->
     </test> <!-- mergeSortTest -->
   </suite> <!-- TestSuite -->

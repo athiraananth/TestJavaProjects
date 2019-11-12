@@ -8,14 +8,17 @@ import java.nio.file.Paths;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import practiseProblems.AppleStock;
 import practiseProblems.FindRotationPoint;
+import practiseProblems.InflightEntertainment;
 import practiseProblems.NgramCounter;
+import practiseProblems.PalindromePermutation;
 import practiseProblems.WordCloud;
 
 public class TestRunner {
 
 
-	public static void RotationPointTest() {
+	/*public static void RotationPointTest() {
 		FindRotationPoint rp =new FindRotationPoint();
 		String[] words = new String[]{
 			    "ptolemaic",
@@ -37,7 +40,7 @@ public class TestRunner {
 		Assert.assertEquals(rotationIndex, 5);
 	}
 	
-	@Test
+	
 	public static void nGramTest() {
 		
 		try {
@@ -85,4 +88,87 @@ public class TestRunner {
 		sentense="";
 		wc.wordCloud(sentense);
 	}
+	
+	
+	@Test
+	public static void inflightTest() {
+		
+		InflightEntertainment ie= new InflightEntertainment();
+		int fLen=180;
+		int mLen[]= {60,90,120,180,240,70};
+		boolean movieStatus=ie.flightEntertaintment(fLen, mLen);
+		Assert.assertTrue(movieStatus);
+		int mLen1[]= {60,45,60,80,50,70};
+		movieStatus=ie.flightEntertaintment(fLen, mLen1);
+		Assert.assertFalse(movieStatus);
+		fLen=60;
+		movieStatus=ie.flightEntertaintment(fLen, mLen);
+		Assert.assertFalse(movieStatus);
+	}
+	
+	@Test
+	public static void NGramCounter_PositiveTest() {
+		NgramCounter ngm= new NgramCounter();
+		ngm.countNGrams("do you know that I know you know that I know that ?", 3);
+		Integer expectedCount = new Integer(2); 
+		Assert.assertEquals(expectedCount,ngm.getThreeGramMap().get("you know that"));
+		
+		Assert.assertEquals(expectedCount,ngm.getTwoGramMap().get("you know"));
+		expectedCount=new Integer(4);
+		Assert.assertEquals(expectedCount,ngm.getOneGramMap().get("know"));
+		
+	}
+	
+	@Test
+	public static void NGramCounter_NegativeTest() {
+		NgramCounter ngm= new NgramCounter();
+		ngm.countNGrams("betty beats butter better butter better", 2);
+		Integer expectedCount = new Integer(2); 
+		Assert.assertTrue(ngm.getThreeGramMap().isEmpty());
+		Assert.assertFalse(ngm.getTwoGramMap().containsKey("butter bitter"));
+		Assert.assertFalse(ngm.getOneGramMap().containsKey("bitter"));
+		
+		
+	}*/
+	
+	@Test
+	public static void permutationPalindromePositive_Test1() {
+		PalindromePermutation pp=new PalindromePermutation();
+		String input="civic";
+		Assert.assertTrue(pp.IsPalindrome(input));
+		
+	}
+
+	@Test
+	public static void permutationPalindromePositive_Test2() {
+		PalindromePermutation pp=new PalindromePermutation();
+		String input="unuunul";
+		Assert.assertTrue(pp.IsPalindrome(input));
+		
+	}
+	
+	@Test
+	public static void permutationPalindromeNegative_Test1() {
+		PalindromePermutation pp=new PalindromePermutation();
+		String input="india";
+		Assert.assertFalse(pp.IsPalindrome(input));
+		
+	}
+	
+	@Test
+	public static void appleStockPriceTest_1() {
+		int stockPrice[]= new int[]{10,7,5,8,9,11};
+		AppleStock as=new AppleStock();
+		Assert.assertEquals(6, as.getMaxProfit(stockPrice));
+		
+	}
+	
+	@Test
+	public static void appleStockPriceTest_2() {
+		int stockPrice[]= new int[]{20,50,15,10,5,40};
+		AppleStock as=new AppleStock();
+		Assert.assertEquals(35, as.getMaxProfit(stockPrice));
+		
+	}
+		
 }

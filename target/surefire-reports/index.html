@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,12 +101,27 @@
                     <div class="method-list-content passed suite-TestSuite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="practiceTests.TestRunner" hash-for-method="nGramTest">nGramTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="practiceTests.TestRunner" hash-for-method="appleStockPriceTest_1">appleStockPriceTest_1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="practiceTests.TestRunner" hash-for-method="wordCloudTest">wordCloudTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="practiceTests.TestRunner" hash-for-method="appleStockPriceTest_2">appleStockPriceTest_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="practiceTests.TestRunner" hash-for-method="permutationPalindromeNegative_Test1">permutationPalindromeNegative_Test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="practiceTests.TestRunner" hash-for-method="permutationPalindromePositive_Test1">permutationPalindromePositive_Test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="practiceTests.TestRunner" hash-for-method="permutationPalindromePositive_Test2">permutationPalindromePositive_Test2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-TestSuite -->
@@ -129,16 +144,37 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="nGramTest">
-                  </a> <!-- nGramTest -->
-                  <span class="method-name">nGramTest</span>
+                  <a name="appleStockPriceTest_1">
+                  </a> <!-- appleStockPriceTest_1 -->
+                  <span class="method-name">appleStockPriceTest_1</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="wordCloudTest">
-                  </a> <!-- wordCloudTest -->
-                  <span class="method-name">wordCloudTest</span>
+                  <a name="appleStockPriceTest_2">
+                  </a> <!-- appleStockPriceTest_2 -->
+                  <span class="method-name">appleStockPriceTest_2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="permutationPalindromeNegative_Test1">
+                  </a> <!-- permutationPalindromeNegative_Test1 -->
+                  <span class="method-name">permutationPalindromeNegative_Test1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="permutationPalindromePositive_Test1">
+                  </a> <!-- permutationPalindromePositive_Test1 -->
+                  <span class="method-name">permutationPalindromePositive_Test1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="permutationPalindromePositive_Test2">
+                  </a> <!-- permutationPalindromePositive_Test2 -->
+                  <span class="method-name">permutationPalindromePositive_Test2</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -152,7 +188,7 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite verbose=&quot;0&quot; name=&quot;TestSuite&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;TestSuite&quot; parallel=&quot;methods&quot;&gt;
   &lt;test name=&quot;mergeSortTest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;practiceTests.TestRunner&quot;/&gt;
@@ -195,20 +231,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'nGramTest')
+data.setCell(0, 1, 'appleStockPriceTest_2')
 data.setCell(0, 2, 'practiceTests.TestRunner')
-data.setCell(0, 3, 45);
+data.setCell(0, 3, 26);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'wordCloudTest')
+data.setCell(1, 1, 'appleStockPriceTest_1')
 data.setCell(1, 2, 'practiceTests.TestRunner')
-data.setCell(1, 3, 3);
+data.setCell(1, 3, 24);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'permutationPalindromeNegative_Test1')
+data.setCell(2, 2, 'practiceTests.TestRunner')
+data.setCell(2, 3, 5);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'permutationPalindromePositive_Test1')
+data.setCell(3, 2, 'practiceTests.TestRunner')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'permutationPalindromePositive_Test2')
+data.setCell(4, 2, 'practiceTests.TestRunner')
+data.setCell(4, 3, 0);
 window.suiteTableData['TestSuite']= { tableData: data, tableDiv: 'times-div-TestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 48 ms</span>
+              <span class="suite-total-time">Total running time: 57 ms</span>
               <div id="times-div-TestSuite">
               </div> <!-- times-div-TestSuite -->
             </div> <!-- times-div -->
@@ -236,12 +284,24 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">practiceTests.TestRunner</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">nGramTest</span>
+                <span class="method-name">appleStockPriceTest_1</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">wordCloudTest</span>
-                <span class="method-start">47 ms</span>
+                <span class="method-name">appleStockPriceTest_2</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">permutationPalindromeNegative_Test1</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">permutationPalindromePositive_Test1</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">permutationPalindromePositive_Test2</span>
+                <span class="method-start">32 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

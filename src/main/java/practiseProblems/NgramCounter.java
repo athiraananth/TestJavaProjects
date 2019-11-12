@@ -14,6 +14,22 @@ import java.util.Map;
 
 public class NgramCounter {
 	
+	private HashMap<String, Integer> threeGramMap = new HashMap<>();
+	private HashMap<String, Integer> twoGramMap = new HashMap<>();
+	private HashMap<String, Integer> oneGramMap = new HashMap<>();
+	
+	public HashMap<String, Integer> getThreeGramMap() {
+		return threeGramMap;
+	}
+
+	public HashMap<String, Integer> getTwoGramMap() {
+		return twoGramMap;
+	}
+
+	public HashMap<String, Integer> getOneGramMap() {
+		return oneGramMap;
+	}
+
 	// N Gram Counter Implementation
 	public void countNGrams(String sentense, int n) {
 		
@@ -26,9 +42,7 @@ public class NgramCounter {
 			System.out.println(" Invalid sentence for N Grams, Please verify the file");
 		}
 		else {
-			HashMap<String, Integer> threeGramMap = new HashMap<>();
-			HashMap<String, Integer> twoGramMap = new HashMap<>();
-			HashMap<String, Integer> oneGramMap = new HashMap<>();
+			
 			int threeGramCount=0;
 			int twoGramCount=0;
 			int oneGramCount=0;	
