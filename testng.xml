@@ -7,8 +7,9 @@
 			<!-- <class name="sortTests.SortTester"/>
 			<class name="sortTests.SearchTester"/> 
 			<class name="practiceTests.TestRunner"/> 
-			<class name="practiceTests.HighestProductTest"/> -->
-			<class name="practiceTests.ProductIntTests"/>
+			<class name="practiceTests.HighestProductTest"/> 
+			<class name="practiceTests.MaxAreaTest"/> -->
+			<class name="practiceTests.MergeMeetingsTest"/>
 		</classes>
 	</test> -->
 </suite> <!-- Suite -->
