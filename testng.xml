@@ -10,6 +10,7 @@
 			<class name="practiceTests.HighestProductTest"/> 
 			<class name="practiceTests.MaxAreaTest"/> -->
 			<class name="practiceTests.MergeMeetingsTest"/>
+			<class name="practiceTests.TopScoreTests"/>
 		</classes>
 	</test> -->
 </suite> <!-- Suite -->

@@ -6,6 +6,7 @@ sort\InsertionSort.class
 practiseProblems\ProductOfIntegers.class
 sort\BubbleSort.class
 practiseProblems\StringOperations.class
+practiseProblems\TopScores.class
 practiseProblems\ReverseInteger.class
 practiseProblems\FindRotationPoint.class
 mergedMeetingProblem\Meeting.class
