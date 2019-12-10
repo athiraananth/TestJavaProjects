@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [TestSuite]" parallel="methods">
+  <test name="mergeSortTest(failed)" parallel="methods">
+    <classes>
+      <class name="practiceTests.SpaceEditionTests">
+        <methods>
+          <include name="findDuplicate_Test3"/>
+        </methods>
+      </class> <!-- practiceTests.SpaceEditionTests -->
+    </classes>
+  </test> <!-- mergeSortTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

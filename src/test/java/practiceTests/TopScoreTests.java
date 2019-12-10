@@ -47,5 +47,17 @@ public class TopScoreTests {
 		
 		
 	}
+	
+
+	@Test
+	public void topScoreTests_5() {
+		int[] unSortedScores=new int[] {65,94,44,65,94,58};
+		int[] expectedSortedScores= {94,94,65,65,58,44};
+		TopScores ts=new TopScores();
+		int[] sortedScores=ts.findTopScores(unSortedScores, 95);
+		
+		Assert.assertEquals(sortedScores, expectedSortedScores);
+	}
+
 
 }

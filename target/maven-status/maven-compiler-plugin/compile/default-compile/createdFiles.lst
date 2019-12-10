@@ -1,4 +1,5 @@
 practiseProblems\FindMaxWater.class
+practiseProblems\SpaceEdition.class
 binarySearch\binarySearchImplementation.class
 binarySearch\BinarySearchTreeImplementation$Node.class
 sort\MergeSortImplementation.class
@@ -18,6 +19,7 @@ practiseProblems\HighestProduct.class
 practiseProblems\DuplicateInteger.class
 sort\quickSortImplementation.class
 practiseProblems\AppleStock.class
+practiseProblems\InPlaceShuffle.class
 mergedMeetingProblem\MergeMeetings.class
 practiseProblems\WordCloud.class
 binarySearch\BinarySearchTreeImplementation.class

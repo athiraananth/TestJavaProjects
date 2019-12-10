@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.262 s - in TestSuite
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.063 s <<< FAILURE! - in TestSuite
+findDuplicate_Test3(practiceTests.SpaceEditionTests)  Time elapsed: 0.027 s  <<< FAILURE!
+java.lang.IllegalArgumentException:  Invalid Integer in the Array, Should be less than7!!
+	at practiceTests.SpaceEditionTests.findDuplicate_Test3(SpaceEditionTests.java:28)
+

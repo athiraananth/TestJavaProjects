@@ -8,9 +8,11 @@
 			<class name="sortTests.SearchTester"/> 
 			<class name="practiceTests.TestRunner"/> 
 			<class name="practiceTests.HighestProductTest"/> 
-			<class name="practiceTests.MaxAreaTest"/> -->
+			<class name="practiceTests.MaxAreaTest"/>
 			<class name="practiceTests.MergeMeetingsTest"/>
-			<class name="practiceTests.TopScoreTests"/>
+			<class name="practiceTests.TopScoreTests"/> 
+			<class name="practiceTests.InPlaceShuffleTests"/> -->
+			<class name="practiceTests.SpaceEditionTests"/>
 		</classes>
 	</test> -->
 </suite> <!-- Suite -->

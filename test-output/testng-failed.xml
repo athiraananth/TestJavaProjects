@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="sortTests.SearchTester">
+      <class name="practiceTests.BalancedBinaryTreeTests">
         <methods>
-          <include name="binarySearchTester"/>
+          <include name="balancedBTTests_2"/>
         </methods>
-      </class> <!-- sortTests.SearchTester -->
+      </class> <!-- practiceTests.BalancedBinaryTreeTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

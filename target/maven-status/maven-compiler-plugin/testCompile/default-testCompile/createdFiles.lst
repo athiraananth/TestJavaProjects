@@ -7,4 +7,6 @@ sortTests\SearchTester.class
 practiceTests\TestRunner.class
 practiceTests\TestNGTester.class
 sortTests\SortTester.class
+practiceTests\SpaceEditionTests.class
 practiceTests\ProductIntTests.class
+practiceTests\InPlaceShuffleTests.class
