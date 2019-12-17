@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="69" started-at="2019-12-12T23:25:04Z" finished-at="2019-12-12T23:25:04Z">
+  <suite name="Default suite" duration-ms="141" started-at="2019-12-17T03:04:15Z" finished-at="2019-12-17T03:04:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="69" started-at="2019-12-12T23:25:04Z" finished-at="2019-12-12T23:25:04Z">
-      <class name="practiceTests.BinaryTreeCheckerTest">
-        <test-method status="PASS" signature="isBinaryTree_Test1()[pri:0, instance:practiceTests.BinaryTreeCheckerTest@48eff760]" name="isBinaryTree_Test1" duration-ms="32" started-at="2019-12-12T15:25:04Z" finished-at="2019-12-12T15:25:04Z">
+    <test name="Default test" duration-ms="141" started-at="2019-12-17T03:04:15Z" finished-at="2019-12-17T03:04:15Z">
+      <class name="practiceTests.GraphColorTests">
+        <test-method status="PASS" signature="colorGraphNode_Test1()[pri:0, instance:practiceTests.GraphColorTests@7c0e2abd]" name="colorGraphNode_Test1" duration-ms="56" started-at="2019-12-16T19:04:15Z" finished-at="2019-12-16T19:04:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- isBinaryTree_Test1 -->
-      </class> <!-- practiceTests.BinaryTreeCheckerTest -->
+        </test-method> <!-- colorGraphNode_Test1 -->
+        <test-method status="PASS" signature="colorGraphNode_Test2()[pri:0, instance:practiceTests.GraphColorTests@7c0e2abd]" name="colorGraphNode_Test2" duration-ms="3" started-at="2019-12-16T19:04:15Z" finished-at="2019-12-16T19:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- colorGraphNode_Test2 -->
+      </class> <!-- practiceTests.GraphColorTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

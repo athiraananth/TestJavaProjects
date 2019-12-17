@@ -2,10 +2,9 @@ package BinaryTreeProblems;
 
 public class BinarySearchTreeChecker extends BinaryTreeNode {
 
-	
+
 	public BinarySearchTreeChecker(int value) {
 		super(value);
-		// TODO Auto-generated constructor stub
 	}
 
 	public boolean isBinarySearchTree(BinaryTreeNode root) {
